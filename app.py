@@ -6,7 +6,7 @@ import pyperclip
 st.set_page_config(page_title="AI Story Generator", page_icon="📖", layout="wide")
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-API_TOKEN = "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"
+API_TOKEN = "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"
 
 headers = {
     "Authorization": f"Bearer {API_TOKEN}",
